@@ -1,0 +1,16 @@
+#ifndef COMMON_IMPL_ALEX
+#define COMMON_IMPL_ALEX
+
+enum data_types
+{
+	INT8 = 0,
+	INT16,
+	INT32,
+	UINT32,
+	UINT64,
+	STRING,
+	DICTIONARY,
+	LIST,
+}
+
+#endif /* COMMON_IMPL_ALEX */

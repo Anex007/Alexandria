@@ -1,0 +1,15 @@
+== AUTHENTICATION ==
+	AUTH UID
+
+== QUERY ==
+	# CREATE
+		CREATE `UNIQUE_NAME` LAYOUT
+
+		UNIQUE_NAME -> Should be of the format [A-Za-z0-9_]+ you can add heirachy like
+			a file
+
+	# PUT
+		PUT `NAME` `REFERENCE` `VALUE`
+
+	# DELETE
+		DELETE `NAME` `REFERENCE`
